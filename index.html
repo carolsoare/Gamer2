@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kkcarol</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Jogos</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Bendy and the Ink Machine</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Fran bow</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Little Nightmares</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Resident Evil</a>
+        </li>
+      </ul>
+      <img src="img/Logolittle.png" alt="Logo de Little" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Entra no universo dos jogos horripilante</h2>
+    <p class="banner__texto">Os mais famosos e sucesso entre os jogadores</p>
+    <input type="search" class="banner__pesquisa" placeholder="buscar mais...">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Os mais famoso</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/bendy.png"
+            alt="imagem do jogo bendy"></div>
+        <div class="swiper-slide"><img src="img/fnaf.png"
+            alt="jogo de Five Nights at Freddy's">
+            </div>
+        <div class="swiper-slide"><img src="img/ofus.png" alt="jogo the last of us">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/evil.png" alt="jogo Resident Evil" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/fran.png" alt="jogo de fran bow" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/little.png" alt="jogo Little Nightmares" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Inside.png" alt="jogo inside" />
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">o jogo de terror de Michael Jackson</h3>
+          <h2 class="descrição__titulo-livro">Escape the Ayuwoki</h2>
+          <p class="descrição__texto">
+            é um jogo de simulação de horror onde os jogadores se encontrarão fugindo de uma criatura monstruosa.
+          </p>
+        </div>
+        <img src="img/Michael.png" class="imagem do jogo Escape the Ayuwoki" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">História interessante</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/Alice.png"
+            alt="imagem do jogo Alice: Madness Returns"></div>
+        <div class="swiper-slide"><img src="img/sally.png" alt="imagem de sally face">
+        </div>
+        <div class="swiper-slide"><img src="img/omori.png" alt="imagem do jogo omori">
+        </div>
+        <div class="swiper-slide"><img src="img/irmã.png" alt="imagem de the coffin of andy and leyley"></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <h3 class="descrição__titulo">Autora do Mês</h3>
+          <h2 class="descrição__titulo-livro">Martha is Dead
+          </h2>
+          <p class="descrição__texto">É um jogo eletrônico de thriller psicológico em primeira pessoa. Foi lançado em de 24 de fevereiro de 2022, sendo desenvolvido pelo estúdio italiano LKA...
+          </p>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+             </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">Tópicos</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">sobrevivência</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Ação</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">psicológico</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Susto</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">reverso</a>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">
+      Atualizações de jogos, notícias, promoção das plataformas e outros.
+    </p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr/>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
